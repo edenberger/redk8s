@@ -24,7 +24,7 @@ reg
 kube-hunter
 red-kube
 ```
-## Preprequisites to build this image
+## Preprequisites to build this image on Ubuntu
 ```
 docker.io
 make

@@ -33,6 +33,8 @@ wget -P $DIR/bin/ https://github.com/genuinetools/amicontained/releases/download
 wget -P $DIR/bin/ https://github.com/brompwnie/botb/releases/download/1.8.0/botb-linux-amd64 -O $DIR/bin/botb
   # reg
 wget -P $DIR/bin/ https://github.com/genuinetools/reg/releases/download/v0.16.1/reg-linux-amd64 -O $DIR/bin/reg
+  # ed
+wget -P $DIR/bin/ https://github.com/brompwnie/ed/releases/download/1.2.0/ed_linux_amd64 -O $DIR/bin/ed
 
   # etcdctl
 wget -P $DIR/tmp/ https://github.com/etcd-io/etcd/releases/download/v3.4.33/etcd-v3.4.33-linux-amd64.tar.gz && \
@@ -53,6 +55,11 @@ wget -P $DIR/tmp/ https://github.com/aquasecurity/kubectl-who-can/releases/downl
 wget -P $DIR/tmp/ https://github.com/alcideio/rbac-tool/releases/download/v1.19.0/rbac-tool_v1.19.0_linux_amd64.tar.gz && \
   tar xf $DIR/tmp/rbac-tool_v1.19.0_linux_amd64.tar.gz -C $DIR/tmp/ && \
   mv $DIR/tmp/rbac-tool $DIR/bin/
+
+  # peirates
+wget -P $DIR/tmp/ https://github.com/inguardians/peirates/releases/download/v1.1.22/peirates-linux-amd64.tar.xz && \
+  tar xf $DIR/tmp/peirates-linux-amd64.tar.xz -C $DIR/tmp/ && \
+  mv $DIR/tmp/peirates-linux-amd64/peirates $DIR/bin/
 
   # red-kube
 git -C $DIR/tmp/ clone https://github.com/edenberger/red-kube

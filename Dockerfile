@@ -16,6 +16,7 @@ COPY ./tmp/kubesploit /tools/kubesploit
   # Install tools and manifests
 COPY ./bin /tools/bin/
 COPY ./manifests /tools/manifests/
+RUN mv /tools/bin/kubesploit* /tools/kubesploit/
 RUN ln -s /tools/bin/* /usr/local/bin/
 
 # Set the ETCD API to 3

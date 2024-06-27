@@ -9,7 +9,7 @@ Heavly changed from [alpine-containertools](https://github.com/raesene/alpine-co
 [botb](https://github.com/brompwnie/botb) -  A container analysis and exploitation tool for pentesters and engineers.  
 [conmachi](https://github.com/nccgroup/ConMachi) - Container Blackbox Security Auditing Tool: enumerates security configuration from within the target container.  
 [deepce.sh](https://github.com/stealthcopter/deepce) - Docker Enumeration, Escalation of Privileges and Container Escapes.  
-[escape.sh](https://blog.trailofbits.com/2019/07/19/understanding-docker-container-escapes)  
+[undock.sh](https://blog.trailofbits.com/2019/07/19/understanding-docker-container-escapes)  
 [keyctl-unmask](https://github.com/antitree/keyctl-unmask) -  Going Florida on container keyring masks. A tool to demonstrate the ineffectivity containers have on isolating Linux Kernel keyrings.  
 [ed](https://github.com/brompwnie/ed/) -  Ed is a tool used to identify and exploit accessible UNIX Domain Sockets.  
 [auger](https://github.com/jpbetz/auger) - Directly access data objects stored in etcd by kubernetes.  
@@ -24,6 +24,7 @@ Heavly changed from [alpine-containertools](https://github.com/raesene/alpine-co
 [red-kube](https://github.com/lightspin-tech/red-kube) - Red Team K8S Adversary Emulation Based on kubectl.  
 [reg](https://github.com/genuinetools/reg) - Docker registry v2 command line client and repo listing generator with security checks.  
 [kdigger](https://github.com/quarkslab/kdigger) -  Kubernetes focused container assessment and context discovery tool for penetration testing.  
+[kubesploit](https://github.com/cyberark/kubesploit) - Cross-platform post-exploitation HTTP/2 Command & Control, focused on containerized environments.  
 
 ## Preprequisites to build this image on Ubuntu
 ```

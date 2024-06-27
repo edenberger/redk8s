@@ -3,7 +3,7 @@ set -eux
 DIR="$(realpath "$(dirname $0)")"
 
   # Auger Docker build is broken
-  # ConMaci needs go installed on host to build
+  # ConMaci needs go installed to build
 test -d $DIR/bin && { set +x ; echo -e '\nbin directory exist, skipping download...\n' ; exit 0; }
 
   # Cleanup
@@ -65,7 +65,6 @@ wget -P $DIR/tmp/ https://github.com/etcd-io/etcd/releases/download/v3.4.33/etcd
 git -C $DIR/tmp/ clone https://github.com/edenberger/red-kube
   # kubesploit
 git -C $DIR/tmp/ clone https://github.com/cyberark/kubesploit
-
   # conmachi
 #git -C $DIR/tmp/ clone https://github.com/nccgroup/ConMachi
 

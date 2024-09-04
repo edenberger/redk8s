@@ -29,6 +29,7 @@ Heavly changed from [alpine-containertools](https://github.com/raesene/alpine-co
 ## Preprequisites to build this image on Ubuntu
 ```
 docker.io
+docker-buildx
 make
 git
 wget
